@@ -1,0 +1,206 @@
+body{
+    background-image:url('back.jfif'); 
+    color: #000;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+#header{
+    background-color:#607abf;
+    background-image: url('background.jfif');
+    margin: 15px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+#navbar{
+    background-color:black;
+    background-image: url('background.jfif');
+    margin: 15px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Courier;
+}
+.main{
+    background-color:#c2c2e5;
+    margin-top: 15px;
+    margin-left: 250px;
+    margin-right: 325px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding:15px;
+    font-size: 110%;
+}
+#title{
+    color: white;
+    text-align: center;
+}
+/*==========  Headings   =============*/
+
+
+h1{
+    background-color:#e7e7ff;
+    border-radius: 5px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 135%;
+}
+h2{
+    background-color:#e7e7ff;
+    border-radius: 5px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 125%;
+}
+h3{
+    font-family: Comic Sans MS;
+    font-size: 380%;
+    color: white;
+    text-align: center;
+    margin-bottom: 0PX;
+}
+h4{ 
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:#cce7d0;
+    border-radius: 5px;
+    color: rgb(11, 128, 17);
+    font-family: monospace;
+    text-align: center;
+    font-size: 280%;
+}
+
+/*==========  Navigation Bar   =============*/
+#navbar ul{
+    text-align: center;
+    
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    list-style-type: none;
+    background-color: black;
+        
+}
+#navbar ul li {
+    display: inline;
+    
+}
+#navbar ul li a{
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#6e95ff;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+#navbar ul li a:hover{
+    background-color: #13275c;
+}
+
+
+/*==========  Side-Boxes   =============*/
+.sideleft{
+    background-color:#c2c2e5;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding:15px;
+    font-size: 105%;
+    float: left;
+    width: 200px;
+    clear: left;
+}
+.sideleft a{
+    padding: 2px;
+    text-decoration: none;
+    
+}
+/*==========  Ads   =============*/
+#ad1{
+    margin-top: -180px;
+    margin-left: 10px;
+    max-width: 310px;
+    float: right;
+    padding: 2px;
+    clear: left;
+    opacity: 1.0;
+    transition:opacity 0.5s ease-in-out;
+    
+}
+#ad1:hover{
+    opacity: 0.80;
+}
+#ad2{
+    margin-top: 400px;
+    max-width: 230px;
+    margin-left: -250px;
+    float: left;
+    padding: 2px;
+    opacity: 1.0;
+    transition:opacity 0.5s ease-in-out;
+    
+}
+#ad2:hover{
+    opacity: 0.80;
+
+}
+#ad3{
+    display: block;
+    margin-left:262px;
+    margin-right: 50px;
+    width: 55%;
+    opacity: 1.0;
+    transition:opacity 0.5s ease-in-out;
+}
+#ad3:hover{
+    opacity: 0.80;
+
+}
+#ad4{
+    margin-top: -380px;
+    margin-left: 10px;
+    max-width: 310px;
+    float: right;
+    padding: 2px;
+    clear: left;
+    opacity: 1.0;
+    transition:opacity 0.5s ease-in-out;
+    
+}
+#ad4:hover{
+    opacity: 0.80;
+}
+#footer{
+    height: 80px;
+    border-radius: 15px;
+    background-color:#607abf;
+    color: white;
+    margin: 15px;
+    clear:both;
+    text-align: center;
+    font-size: 70%;
+    padding: 15px ;
+}
+#footer ul li{
+    display: inline;
+    
+
+}
+#footer a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 150%;
+    
+}
+#footer ul li a:hover{
+    background-color: #13275c;
+}
+
